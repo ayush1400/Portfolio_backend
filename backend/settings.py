@@ -39,6 +39,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://ayush1400.pro",
     "https://www.ayush1400.pro",
     "https://portfolio-backend-1-hcy4.onrender.com",
+    "https://admin.ayush1400.pro",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
