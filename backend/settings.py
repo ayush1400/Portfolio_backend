@@ -36,8 +36,8 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:8000",
-    "https://yourdomain.com",
-    "https://www.yourdomain.com",
+    "https://ayush1400.pro",
+    "https://www.ayush1400.pro",
     "https://portfolio-backend-1-hcy4.onrender.com",
 ]
 
