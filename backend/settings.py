@@ -38,6 +38,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:8000",
     "https://yourdomain.com",
     "https://www.yourdomain.com",
+    "https://portfolio-backend-1-hcy4.onrender.com",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
