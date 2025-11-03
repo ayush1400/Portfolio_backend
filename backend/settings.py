@@ -8,7 +8,7 @@ SECRET_KEY = config('SECRET_KEY', default='your-secret-key-change-in-production'
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.vercel.app', 'yourdomain.com', 'www.yourdomain.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.vercel.app', 'https://admin.ayush1400.pro/', 'https://portfolio-backend-1-hcy4.onrender.com/']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -34,8 +34,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://localhost:8000",
+    # "http://localhost:3000",
+    # "http://localhost:8000",
     "https://ayush1400.pro",
     "https://www.ayush1400.pro",
     "https://admin.ayush1400.pro",
